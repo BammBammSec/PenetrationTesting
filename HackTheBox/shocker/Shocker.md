@@ -388,7 +388,7 @@ shelly@Shocker:/usr/lib/cgi-bin$
 ### user flag
 ```
 shelly@Shocker:/usr/lib/cgi-bin$ cat /home/shelly/user.txt 
-c7b88cd3a72904f07597e996ff0356a6
+c7b88cd*************************
 ```
 
 First we check `sudo -l` before we upload any kind of enumeration script:
@@ -411,7 +411,7 @@ shelly@Shocker:/usr/lib/cgi-bin$ sudo perl -e 'exec "/bin/bash"'
 ### root flag
 ```
 root@Shocker:/usr/lib/cgi-bin# cat /root/root.txt 
-003b3306d8afb4b240e7c2feda636130
+003b33**************************
 
 ```
 
