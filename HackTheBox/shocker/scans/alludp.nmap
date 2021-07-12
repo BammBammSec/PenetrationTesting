@@ -1,0 +1,8 @@
+# Nmap 7.91 scan initiated Wed Jul  7 01:31:09 2021 as: nmap -vv --stats-every 20s -sU -p- --min-rate 10000 -oA alludp 10.129.116.171
+Warning: 10.129.116.171 giving up on port because retransmission cap hit (10).
+Nmap scan report for 10.129.116.171
+Host is up, received echo-reply ttl 63 (0.18s latency).
+All 65535 scanned ports on 10.129.116.171 are open|filtered (65454) or closed (81) because of 65454 no-responses and 81 port-unreaches
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Jul  7 01:32:26 2021 -- 1 IP address (1 host up) scanned in 77.63 seconds

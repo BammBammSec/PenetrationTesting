@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jul  7 01:31:09 2021 as: nmap -vv -&#45;stats-every 20s -sU -p- -&#45;min-rate 10000 -oA alludp 10.129.116.171 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;stats-every 20s -sU -p- -&#45;min-rate 10000 -oA alludp 10.129.116.171" start="1625635869" startstr="Wed Jul  7 01:31:09 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1625635869"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.116.171" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1625635869" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1625635869"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1625635869"/>
+<taskbegin task="UDP Scan" time="1625635869"/>
+<taskprogress task="UDP Scan" time="1625635889" percent="27.54" remaining="53" etc="1625635942"/>
+<taskprogress task="UDP Scan" time="1625635909" percent="55.31" remaining="33" etc="1625635941"/>
+<taskprogress task="UDP Scan" time="1625635929" percent="80.03" remaining="15" etc="1625635944"/>
+<taskend task="UDP Scan" time="1625635946" extrainfo="65535 total ports"/>
+<host starttime="1625635869" endtime="1625635946"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.116.171" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="open|filtered" count="65454">
+<extrareasons reason="no-responses" count="65454"/>
+</extraports>
+<extraports state="closed" count="81">
+<extrareasons reason="port-unreaches" count="81"/>
+</extraports>
+</ports>
+<times srtt="175878" rttvar="213536" to="1030022"/>
+</host>
+<runstats><finished time="1625635946" timestr="Wed Jul  7 01:32:26 2021" summary="Nmap done at Wed Jul  7 01:32:26 2021; 1 IP address (1 host up) scanned in 77.63 seconds" elapsed="77.63" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
