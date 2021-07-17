@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Jul 14 23:49:40 2021 as: nmap -p 80 -sCV -oA scans/nmap-tcp_scripts 10.129.103.148 -->
+<nmaprun scanner="nmap" args="nmap -p 80 -sCV -oA scans/nmap-tcp_scripts 10.129.103.148" start="1626320980" startstr="Wed Jul 14 23:49:40 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.103.148" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1626320980" endtime="1626320989"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.129.103.148" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft IIS httpd" version="6.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:6.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+<elem>DELETE</elem>
+<elem>COPY</elem>
+<elem>MOVE</elem>
+<elem>PROPFIND</elem>
+<elem>PROPPATCH</elem>
+<elem>SEARCH</elem>
+<elem>MKCOL</elem>
+<elem>LOCK</elem>
+<elem>UNLOCK</elem>
+<elem>PUT</elem>
+</table>
+</script><script id="http-server-header" output="Microsoft-IIS/6.0"><elem>Microsoft-IIS/6.0</elem>
+</script><script id="http-title" output="Under Construction"><elem key="title">Under Construction</elem>
+</script><script id="http-webdav-scan" output="&#xa;  WebDAV type: Unknown&#xa;  Server Date: Thu, 15 Jul 2021 03:49:48 GMT&#xa;  Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH&#xa;  Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK&#xa;  Server Type: Microsoft-IIS/6.0"><elem key="WebDAV type">Unknown</elem>
+<elem key="Server Date">Thu, 15 Jul 2021 03:49:48 GMT</elem>
+<elem key="Public Options">OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH</elem>
+<elem key="Allowed Methods">OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK</elem>
+<elem key="Server Type">Microsoft-IIS/6.0</elem>
+</script></port>
+</ports>
+<times srtt="34596" rttvar="27588" to="144948"/>
+</host>
+<runstats><finished time="1626320989" timestr="Wed Jul 14 23:49:49 2021" summary="Nmap done at Wed Jul 14 23:49:49 2021; 1 IP address (1 host up) scanned in 8.89 seconds" elapsed="8.89" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

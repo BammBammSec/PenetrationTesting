@@ -1,0 +1,95 @@
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.129.103.148
++ Target Hostname:    10.129.103.148
++ Target Port:        80
++ Start Time:         2021-07-15 00:29:16 (GMT-4)
+---------------------------------------------------------------------------
++ Server: Microsoft-IIS/6.0
++ Retrieved microsoftofficewebserver header: 5.0_Pub
++ Retrieved x-powered-by header: ASP.NET
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ Uncommon header 'microsoftofficewebserver' found, with contents: 5.0_Pub
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Retrieved x-aspnet-version header: 1.1.4322
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ OSVDB-397: HTTP method 'PUT' allows clients to save files on the web server.
++ OSVDB-5646: HTTP method 'DELETE' allows clients to delete files on the web server.
++ Retrieved dasl header: <DAV:sql>
++ Retrieved dav header: 1, 2
++ Retrieved ms-author-via header: MS-FP/4.0,DAV
++ Uncommon header 'ms-author-via' found, with contents: MS-FP/4.0,DAV
++ Allowed HTTP Methods: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH 
++ OSVDB-5646: HTTP method ('Allow' Header): 'DELETE' may allow clients to remove files on the web server.
++ OSVDB-397: HTTP method ('Allow' Header): 'PUT' method could allow clients to save files on the web server.
++ OSVDB-5647: HTTP method ('Allow' Header): 'MOVE' may allow clients to change file locations on the web server.
++ Public HTTP Methods: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH 
++ OSVDB-5646: HTTP method ('Public' Header): 'DELETE' may allow clients to remove files on the web server.
++ OSVDB-397: HTTP method ('Public' Header): 'PUT' method could allow clients to save files on the web server.
++ OSVDB-5647: HTTP method ('Public' Header): 'MOVE' may allow clients to change file locations on the web server.
++ WebDAV enabled (SEARCH UNLOCK LOCK PROPPATCH COPY PROPFIND MKCOL listed as allowed)
++ OSVDB-13431: PROPFIND HTTP verb may show the server's internal IP address: http://granny/_vti_bin/_vti_aut/author.dll
++ OSVDB-396: /_vti_bin/shtml.exe: Attackers may be able to crash FrontPage by requesting a DOS device, like shtml.exe/aux.htm -- a DoS was not attempted.
++ OSVDB-3233: /postinfo.html: Microsoft FrontPage default file found.
++ OSVDB-3233: /_private/: FrontPage directory found.
++ OSVDB-3233: /_vti_bin/: FrontPage directory found.
++ OSVDB-3233: /_vti_inf.html: FrontPage/SharePoint is installed and reveals its version number (check HTML source for more information).
++ OSVDB-3300: /_vti_bin/: shtml.exe/shtml.dll is available remotely. Some versions of the Front Page ISAPI filter are vulnerable to a DOS (not attempted).
++ OSVDB-3500: /_vti_bin/fpcount.exe: Frontpage counter CGI has been found. FP Server version 97 allows remote users to execute arbitrary system commands, though a vulnerability in this version could not be confirmed. http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-1376. http://www.securityfocus.com/bid/2252.
++ OSVDB-67: /_vti_bin/shtml.dll/_vti_rpc: The anonymous FrontPage user is revealed through a crafted POST.
+V:Thu Jul 15 00:44:46 2021 - 404 for GET:	/wordpressreadme.html
+V:Thu Jul 15 00:44:46 2021 - 404 for GET:	/wp-links-opml.php
+V:Thu Jul 15 00:44:46 2021 - 404 for GET:	/wordpresswp-links-opml.php
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/includes/sendmail.inc
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/license.txt
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/install.txt
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/LICENSE.TXT
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/INSTALL.TXT
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/READ_THIS_FIRST.txt
+V:Thu Jul 15 00:44:47 2021 - 404 for GET:	/wp-app.log
+V:Thu Jul 15 00:44:48 2021 - 404 for GET:	/wordpresswp-app.log
+V:Thu Jul 15 00:44:48 2021 - 401 for GET:	/_vti_bin/_vti_adm/admin.dll
++ /_vti_bin/_vti_adm/admin.dll: FrontPage/SharePoint file found.
+V:Thu Jul 15 00:44:48 2021 - 404 for GET:	/read/rss?forum=nonexistant&rev=0.92
+V:Thu Jul 15 00:44:48 2021 - 404 for GET:	/subscribe/survey~1.tml
+V:Thu Jul 15 00:44:48 2021 - 404 for GET:	/scripts/message/message_dialog.tml?how_many_back=\"><script>alert(1)</script>
+V:Thu Jul 15 00:44:48 2021 - 404 for GET:	/read/attach_file.tml?page=http://cirt.net/
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/config/config.txt
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/htaccess.txt
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/typo3/
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/cms/typo3/
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/site/typo3/
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/typo/typo3/
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/typo3/typo3/
+V:Thu Jul 15 00:44:49 2021 - 404 for GET:	/ConversionReport.txt
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/cadence/
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/cadence/webaccess.net
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/config/readme.txt
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/data/readme.txt
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/log/readme.txt
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/logs/readme.txt
+V:Thu Jul 15 00:44:50 2021 - 404 for GET:	/uploads/readme.txt
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/cadence/help/help.htm
+V:Thu Jul 15 00:44:51 2021 - 200 for GET:	/
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/install/install.aspx
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/webresource.axd?d=junk
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/scriptresource.axd?d=junk
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/admin1.php
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/admin.asp
+V:Thu Jul 15 00:44:51 2021 - 404 for GET:	/admin/account.asp
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/account.html
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/account.php
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/controlpanel.asp
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/controlpanel.html
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/controlpanel.php
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/cp.asp
+V:Thu Jul 15 00:44:52 2021 - 404 for GET:	/admin/cp.html
+V:Thu Jul 15 00:44:53 2021 - 404 for GET:	/admin/cp.php
+V:Thu Jul 15 00:44:53 2021 - 404 for GET:	/admin/home.asp
+V:Thu Jul 15 00:44:53 2021 - 404 for GET:	/admin/home.php
+V:Thu Jul 15 00:44:53 2021 - 404 for GET:	/admin/index.asp
++ 8070 requests: 0 error(s) and 32 item(s) reported on remote host
++ End Time:           2021-07-15 00:48:32 (GMT-4) (1156 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

@@ -1,0 +1,20 @@
+# Nmap 7.91 scan initiated Wed Jul 14 23:49:40 2021 as: nmap -p 80 -sCV -oA scans/nmap-tcp_scripts 10.129.103.148
+Nmap scan report for 10.129.103.148
+Host is up (0.035s latency).
+
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 6.0
+| http-methods: 
+|_  Potentially risky methods: TRACE DELETE COPY MOVE PROPFIND PROPPATCH SEARCH MKCOL LOCK UNLOCK PUT
+|_http-server-header: Microsoft-IIS/6.0
+|_http-title: Under Construction
+| http-webdav-scan: 
+|   WebDAV type: Unknown
+|   Server Date: Thu, 15 Jul 2021 03:49:48 GMT
+|   Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH
+|   Allowed Methods: OPTIONS, TRACE, GET, HEAD, DELETE, COPY, MOVE, PROPFIND, PROPPATCH, SEARCH, MKCOL, LOCK, UNLOCK
+|_  Server Type: Microsoft-IIS/6.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 14 23:49:49 2021 -- 1 IP address (1 host up) scanned in 8.89 seconds

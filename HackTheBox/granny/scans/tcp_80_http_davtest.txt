@@ -1,0 +1,44 @@
+********************************************************
+ Testing DAV connection
+OPEN		SUCCEED:		http://10.129.103.148
+********************************************************
+NOTE	Random string for this session: 832eFlXD4Y6R51a
+********************************************************
+ Creating directory
+MKCOL		SUCCEED:		Created http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a
+********************************************************
+ Sending test files
+PUT	asp	FAIL
+PUT	shtml	FAIL
+PUT	pl	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.pl
+PUT	cfm	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.cfm
+PUT	php	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.php
+PUT	aspx	FAIL
+PUT	cgi	FAIL
+PUT	jsp	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.jsp
+PUT	html	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.html
+PUT	txt	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.txt
+PUT	jhtml	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.jhtml
+********************************************************
+ Checking for test file execution
+EXEC	pl	FAIL
+EXEC	cfm	FAIL
+EXEC	php	FAIL
+EXEC	jsp	FAIL
+EXEC	html	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.html
+EXEC	txt	SUCCEED:	http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.txt
+EXEC	jhtml	FAIL
+
+********************************************************
+/usr/bin/davtest Summary:
+Created: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.pl
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.cfm
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.php
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.jsp
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.html
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.txt
+PUT File: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.jhtml
+Executes: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.html
+Executes: http://10.129.103.148/DavTestDir_832eFlXD4Y6R51a/davtest_832eFlXD4Y6R51a.txt
+
