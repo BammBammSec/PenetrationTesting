@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sat Jul 17 02:10:49 2021 as: nmap -p 80 -sCV -oA scans/nmap-tcp_scripts 10.129.146.35 -->
+<nmaprun scanner="nmap" args="nmap -p 80 -sCV -oA scans/nmap-tcp_scripts 10.129.146.35" start="1626502249" startstr="Sat Jul 17 02:10:49 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.146.35" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1626502249" endtime="1626502259"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.129.146.35" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft IIS httpd" version="6.0" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:6.0</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-methods" output="&#xa;  Potentially risky methods: TRACE COPY PROPFIND SEARCH LOCK UNLOCK DELETE PUT MOVE MKCOL PROPPATCH"><table key="Potentially risky methods">
+<elem>TRACE</elem>
+<elem>COPY</elem>
+<elem>PROPFIND</elem>
+<elem>SEARCH</elem>
+<elem>LOCK</elem>
+<elem>UNLOCK</elem>
+<elem>DELETE</elem>
+<elem>PUT</elem>
+<elem>MOVE</elem>
+<elem>MKCOL</elem>
+<elem>PROPPATCH</elem>
+</table>
+</script><script id="http-ntlm-info" output="&#xa;  Target_Name: GRANPA&#xa;  NetBIOS_Domain_Name: GRANPA&#xa;  NetBIOS_Computer_Name: GRANPA&#xa;  DNS_Domain_Name: granpa&#xa;  DNS_Computer_Name: granpa&#xa;  Product_Version: 5.2.3790"><elem key="Target_Name">GRANPA</elem>
+<elem key="NetBIOS_Domain_Name">GRANPA</elem>
+<elem key="NetBIOS_Computer_Name">GRANPA</elem>
+<elem key="DNS_Domain_Name">granpa</elem>
+<elem key="DNS_Computer_Name">granpa</elem>
+<elem key="Product_Version">5.2.3790</elem>
+</script><script id="http-server-header" output="Microsoft-IIS/6.0"><elem>Microsoft-IIS/6.0</elem>
+</script><script id="http-title" output="Under Construction"><elem key="title">Under Construction</elem>
+</script><script id="http-webdav-scan" output="&#xa;  WebDAV type: Unknown&#xa;  Server Date: Sat, 17 Jul 2021 06:10:56 GMT&#xa;  Server Type: Microsoft-IIS/6.0&#xa;  Public Options: OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH&#xa;  Allowed Methods: OPTIONS, TRACE, GET, HEAD, COPY, PROPFIND, SEARCH, LOCK, UNLOCK"><elem key="WebDAV type">Unknown</elem>
+<elem key="Server Date">Sat, 17 Jul 2021 06:10:56 GMT</elem>
+<elem key="Server Type">Microsoft-IIS/6.0</elem>
+<elem key="Public Options">OPTIONS, TRACE, GET, HEAD, DELETE, PUT, POST, COPY, MOVE, MKCOL, PROPFIND, PROPPATCH, LOCK, UNLOCK, SEARCH</elem>
+<elem key="Allowed Methods">OPTIONS, TRACE, GET, HEAD, COPY, PROPFIND, SEARCH, LOCK, UNLOCK</elem>
+</script></port>
+</ports>
+<times srtt="35305" rttvar="27682" to="146033"/>
+</host>
+<runstats><finished time="1626502259" timestr="Sat Jul 17 02:10:59 2021" summary="Nmap done at Sat Jul 17 02:10:59 2021; 1 IP address (1 host up) scanned in 9.61 seconds" elapsed="9.61" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

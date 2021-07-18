@@ -1,0 +1,24 @@
+********************************************************
+ Testing DAV connection
+OPEN		SUCCEED:		http://10.129.146.35
+********************************************************
+NOTE	Random string for this session: 9qTBjGEmpP4Ds3r
+********************************************************
+ Creating directory
+********************************************************
+ Sending test files
+PUT	jhtml	FAIL
+PUT	txt	FAIL
+PUT	cfm	FAIL
+PUT	asp	FAIL
+PUT	cgi	FAIL
+PUT	php	FAIL
+PUT	shtml	FAIL
+PUT	jsp	FAIL
+PUT	html	FAIL
+PUT	pl	FAIL
+PUT	aspx	FAIL
+
+********************************************************
+/usr/bin/davtest Summary:
+
