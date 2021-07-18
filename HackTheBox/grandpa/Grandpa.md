@@ -737,10 +737,10 @@ dir
                5 Dir(s)  18,098,122,752 bytes free
 
 C:\Documents and Settings>type Administrator\Desktop\root.txt
-9359e905a2c35f861f6a57cecf28bb7b
+9359e9**************************
 
 C:\Documents and Settings>type harry\desktop\user.txt
-bdff5ec67c3cff017f2bedc146a5d869
+bdff5e**************************
 
 ```
 
