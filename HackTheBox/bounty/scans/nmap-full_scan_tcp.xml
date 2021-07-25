@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Jul 18 23:49:20 2021 as: nmap -vv -&#45;stats-every 20s -p- -&#45;min-rate 10000 -oA scans/nmap-full_scan_tcp 10.129.174.221 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;stats-every 20s -p- -&#45;min-rate 10000 -oA scans/nmap-full_scan_tcp 10.129.174.221" start="1626666560" startstr="Sun Jul 18 23:49:20 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1626666560"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.174.221" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1626666560" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1626666560"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1626666560"/>
+<taskbegin task="SYN Stealth Scan" time="1626666560"/>
+<taskend task="SYN Stealth Scan" time="1626666573" extrainfo="65535 total ports"/>
+<host starttime="1626666560" endtime="1626666573"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.129.174.221" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65534">
+<extrareasons reason="no-responses" count="65534"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" method="table" conf="3"/></port>
+</ports>
+<times srtt="35957" rttvar="3014" to="100000"/>
+</host>
+<runstats><finished time="1626666573" timestr="Sun Jul 18 23:49:33 2021" summary="Nmap done at Sun Jul 18 23:49:33 2021; 1 IP address (1 host up) scanned in 13.46 seconds" elapsed="13.46" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

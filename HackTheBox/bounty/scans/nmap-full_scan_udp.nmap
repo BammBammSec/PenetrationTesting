@@ -1,0 +1,7 @@
+# Nmap 7.91 scan initiated Sun Jul 18 23:49:33 2021 as: nmap -vv --stats-every 20s -sU -p- --min-rate 10000 -oA scans/nmap-full_scan_udp 10.129.174.221
+Nmap scan report for 10.129.174.221
+Host is up, received echo-reply ttl 127 (0.035s latency).
+All 65535 scanned ports on 10.129.174.221 are open|filtered because of 65535 no-responses
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Jul 18 23:49:47 2021 -- 1 IP address (1 host up) scanned in 13.63 seconds

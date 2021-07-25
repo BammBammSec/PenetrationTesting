@@ -1,0 +1,11 @@
+# Nmap 7.91 scan initiated Sun Jul 18 23:49:20 2021 as: nmap -vv --stats-every 20s -p- --min-rate 10000 -oA scans/nmap-full_scan_tcp 10.129.174.221
+Nmap scan report for 10.129.174.221
+Host is up, received echo-reply ttl 127 (0.036s latency).
+Scanned at 2021-07-18 23:49:20 EDT for 13s
+Not shown: 65534 filtered ports
+Reason: 65534 no-responses
+PORT   STATE SERVICE REASON
+80/tcp open  http    syn-ack ttl 127
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Jul 18 23:49:33 2021 -- 1 IP address (1 host up) scanned in 13.46 seconds

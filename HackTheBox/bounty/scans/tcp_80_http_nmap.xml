@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Sun Jul 18 23:50:35 2021 as: nmap -&#45;reason -Pn -&#45;stats-every 20s -sV -p 80 &quot;-&#45;script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)&quot; -oA scans/tcp_80_http_nmap 10.129.174.221 -->
+<nmaprun scanner="nmap" args="nmap -&#45;reason -Pn -&#45;stats-every 20s -sV -p 80 &quot;-&#45;script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)&quot; -oA scans/tcp_80_http_nmap 10.129.174.221" start="1626666635" startstr="Sun Jul 18 23:50:35 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="NSE" time="1626666655" percent="99.35" remaining="1" etc="1626666655"/>
+<taskprogress task="NSE" time="1626666675" percent="99.67" remaining="1" etc="1626666675"/>
+<taskprogress task="NSE" time="1626666695" percent="99.67" remaining="1" etc="1626666695"/>
+<taskprogress task="NSE" time="1626666715" percent="99.67" remaining="1" etc="1626666715"/>
+<taskprogress task="NSE" time="1626666735" percent="99.67" remaining="1" etc="1626666735"/>
+<taskprogress task="NSE" time="1626666755" percent="99.67" remaining="1" etc="1626666755"/>
+<taskprogress task="NSE" time="1626666775" percent="99.67" remaining="1" etc="1626666775"/>
+<taskprogress task="NSE" time="1626666795" percent="99.67" remaining="1" etc="1626666796"/>
+<taskprogress task="NSE" time="1626666815" percent="99.67" remaining="1" etc="1626666816"/>
+<taskprogress task="NSE" time="1626666835" percent="99.67" remaining="1" etc="1626666836"/>
+<taskprogress task="NSE" time="1626666855" percent="99.67" remaining="1" etc="1626666856"/>
+<taskprogress task="NSE" time="1626666875" percent="99.67" remaining="1" etc="1626666876"/>
+<taskprogress task="NSE" time="1626666895" percent="99.67" remaining="1" etc="1626666896"/>
+<host starttime="1626666635" endtime="1626666898"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.174.221" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="127"/><service name="http" product="Microsoft IIS httpd" version="7.5" ostype="Windows" method="probed" conf="10"><cpe>cpe:/a:microsoft:internet_information_server:7.5</cpe><cpe>cpe:/o:microsoft:windows</cpe></service><script id="http-chrono" output="Request times for /; avg: 205.73ms; min: 202.59ms; max: 210.66ms"/><script id="http-comments-displayer" output="&#xa;Spidering limited to: maxdepth=3; maxpagecount=20; withinhost=10.129.174.221&#xa;    &#xa;    Path: http://10.129.174.221:80/&#xa;    Line number: 7&#xa;    Comment: &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        &#xa;        -&#45;&gt;&#xa;"/><script id="http-csrf" output="Couldn&apos;t find any CSRF vulnerabilities."/><script id="http-date" output="Mon, 19 Jul 2021 03:50:42 GMT; -2s from local time."><elem key="date">2021-07-19T03:50:42+00:00</elem>
+<elem key="delta">-2.0</elem>
+</script><script id="http-devframework" output="ASP.NET detected. Found related header."/><script id="http-dombased-xss" output="Couldn&apos;t find any DOM based XSS."/><script id="http-errors" output="Couldn&apos;t find any error pages."/><script id="http-exif-spider" output="ERROR: Script execution failed (use -d to debug)"/><script id="http-feed" output="Couldn&apos;t find any feeds."/><script id="http-fetch" output="Please enter the complete path of the directory to save data in."><elem key="ERROR">Please enter the complete path of the directory to save data in.</elem>
+</script><script id="http-headers" output="&#xa;  Content-Length: 630&#xa;  Content-Type: text/html&#xa;  Last-Modified: Thu, 31 May 2018 03:46:26 GMT&#xa;  Accept-Ranges: bytes&#xa;  ETag: &quot;20ba8ef391f8d31:0&quot;&#xa;  Server: Microsoft-IIS/7.5&#xa;  X-Powered-By: ASP.NET&#xa;  Date: Mon, 19 Jul 2021 03:50:44 GMT&#xa;  Connection: close&#xa;  &#xa;  (Request type: HEAD)&#xa;"/><script id="http-malware-host" output="Host appears to be clean"/><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS TRACE GET HEAD POST&#xa;  Potentially risky methods: TRACE"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>TRACE</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+<table key="Potentially risky methods">
+<elem>TRACE</elem>
+</table>
+</script><script id="http-mobileversion-checker" output="No mobile version detected."/><script id="http-referer-checker" output="Couldn&apos;t find any cross-domain scripts."/><script id="http-security-headers" output="&#xa;"></script><script id="http-server-header" output="Microsoft-IIS/7.5"><elem>Microsoft-IIS/7.5</elem>
+</script><script id="http-sitemap-generator" output="&#xa;  Directory structure:&#xa;    /&#xa;      Other: 1; jpg: 1&#xa;  Longest directory structure:&#xa;    Depth: 0&#xa;    Dir: /&#xa;  Total files found (by extension):&#xa;    Other: 1; jpg: 1&#xa;"/><script id="http-stored-xss" output="Couldn&apos;t find any stored XSS vulnerabilities."/><script id="http-title" output="Bounty"><elem key="title">Bounty</elem>
+</script><script id="http-traceroute" output="&#xa;  Possible reverse proxy detected.&#xa;"/><script id="http-useragent-tester" output="&#xa;  Status for browser useragent: 200&#xa;  Allowed User Agents: &#xa;    Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)&#xa;    libwww&#xa;    lwp-trivial&#xa;    libcurl-agent/1.0&#xa;    PHP/&#xa;    Python-urllib/2.5&#xa;    GT::WWW&#xa;    Snoopy&#xa;    MFC_Tear_Sample&#xa;    HTTP::Lite&#xa;    PHPCrawl&#xa;    URI::Fetch&#xa;    Zend_Http_Client&#xa;    http client&#xa;    PECL::HTTP&#xa;    Wget/1.13.4 (linux-gnu)&#xa;    WWW-Mechanize/1.34"><elem key="Status for browser useragent">200</elem>
+<table key="Allowed User Agents">
+<elem>Mozilla/5.0 (compatible; Nmap Scripting Engine; https://nmap.org/book/nse.html)</elem>
+<elem>libwww</elem>
+<elem>lwp-trivial</elem>
+<elem>libcurl-agent/1.0</elem>
+<elem>PHP/</elem>
+<elem>Python-urllib/2.5</elem>
+<elem>GT::WWW</elem>
+<elem>Snoopy</elem>
+<elem>MFC_Tear_Sample</elem>
+<elem>HTTP::Lite</elem>
+<elem>PHPCrawl</elem>
+<elem>URI::Fetch</elem>
+<elem>Zend_Http_Client</elem>
+<elem>http client</elem>
+<elem>PECL::HTTP</elem>
+<elem>Wget/1.13.4 (linux-gnu)</elem>
+<elem>WWW-Mechanize/1.34</elem>
+</table>
+</script><script id="http-vhosts" output="&#xa;128 names had status 200"/></port>
+</ports>
+<times srtt="32419" rttvar="32419" to="162095"/>
+</host>
+<runstats><finished time="1626666898" timestr="Sun Jul 18 23:54:58 2021" summary="Nmap done at Sun Jul 18 23:54:58 2021; 1 IP address (1 host up) scanned in 263.62 seconds" elapsed="263.62" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

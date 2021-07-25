@@ -1,0 +1,1094 @@
+Windows Exploit Suggester 0.98 ( https://github.com/bitsadmin/wesng/ )
+[+] Parsing systeminfo output
+[+] Operating System
+    - Name: Windows Server 2008 R2 for x64-based Systems
+    - Generation: 2008 R2
+    - Build: 7600
+    - Version: None
+    - Architecture: x64-based
+    - Installed hotfixes: None
+[+] Loading definitions
+    - Creation date of definitions: 20210705
+[+] Determining missing patches
+[+] Filtering duplicate vulnerabilities
+[+] Applying display filters
+[+] Found vulnerabilities
+
+Date: 20130108
+CVE: CVE-2013-0011
+KB: KB2769369
+Title: Vulnerability in Windows Print Spooler Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120110
+CVE: CVE-2012-0004
+KB: KB2631813
+Title: Vulnerabilities in Windows Media Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: DirectShow
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1851
+KB: KB2712808
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1851
+KB: KB2705219
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100112
+CVE: CVE-2010-0018
+KB: KB972270
+Title: Vulnerability in the Embedded OpenType Font Engine Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20111229
+CVE: CVE-2011-3416
+KB: KB2656355
+Title: Vulnerabilities in .NET Framework Could Allow Elevation of Privilege
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20121211
+CVE: CVE-2012-4774
+KB: KB2758857
+Title: Vulnerability in Windows File Handling Component Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100608
+CVE: CVE-2010-1879
+KB: KB979482
+Title: Vulnerabilities in Media Decompression Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Asycfilt.dll (COM component)
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120313
+CVE: CVE-2012-0002
+KB: KB2667402
+Title: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120313
+CVE: CVE-2012-0002
+KB: KB2621440
+Title: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110614
+CVE: CVE-2011-1868
+KB: KB2535512
+Title: Vulnerabilities in Distributed File System Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110614
+CVE: CVE-2011-1268
+KB: KB2536276
+Title: Vulnerability in SMB Client Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-1338
+KB: KB2817183
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 9
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-1338
+KB: KB2817183
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 8
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121211
+CVE: CVE-2012-4786
+KB: KB2753842
+Title: Vulnerabilities in Windows Kernel-Mode Drivers Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120214
+CVE: CVE-2012-0150
+KB: KB2654428
+Title: Vulnerability in C Run-Time Library Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0176
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0176
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0176
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120412
+CVE: CVE-2012-0151
+KB: KB2653956
+Title: Vulnerability in Windows Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0165
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0165
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0165
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120110
+CVE: CVE-2012-0003
+KB: KB2631813
+Title: Vulnerabilities in Windows Media Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: DirectShow
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0160
+KB: KB2604114
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120710
+CVE: CVE-2012-1522
+KB: KB2719177
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 9
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100413
+CVE: CVE-2010-0486
+KB: KB979309
+Title: Vulnerabilities in Windows Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Cabinet File Viewer Shell Extension 6.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-1896
+KB: KB2729451
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-1895
+KB: KB2729451
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20081111
+CVE: CVE-2007-0099
+KB: KB954430
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 4.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0167
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0167
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0167
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100511
+CVE: CVE-2010-0816
+KB: KB978542
+Title: Vulnerability in Outlook Express and Windows Mail Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Live Mail 2011
+Severity: Critical
+Impact: Remote Code Execution
+Exploits: http://archives.neohapsis.com/archives/bugtraq/2010-05/0068.html, http://www.protekresearchlab.com/index.php?option=com_content&view=article&id=13&Itemid=13, http://www.securityfocus.com/bid/40052
+
+Date: 20101012
+CVE: CVE-2010-1883
+KB: KB982132
+Title: Vulnerability in the Embedded OpenType Font Engine Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130108
+CVE: CVE-2013-0006
+KB: KB2758694
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 4.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130108
+CVE: CVE-2013-0006
+KB: KB2757638
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 3.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130108
+CVE: CVE-2013-0006
+KB: KB2757638
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 6.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121211
+CVE: CVE-2012-2556
+KB: KB2753842
+Title: Vulnerabilities in Windows Kernel-Mode Drivers Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0162
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0162
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0162
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120612
+CVE: CVE-2012-0173
+KB: KB2685939
+Title: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20111213
+CVE: CVE-2011-3397
+KB: KB2618451
+Title: Cumulative Security Update of ActiveX Kill Bits
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-1296
+KB: KB2813347
+Title: Vulnerability in Remote Desktop Client Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Remote Desktop Connection 7.0 Client
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110614
+CVE: CVE-2011-1869
+KB: KB2535512
+Title: Vulnerabilities in Distributed File System Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20111229
+CVE: CVE-2011-3414
+KB: KB2656355
+Title: Vulnerabilities in .NET Framework Could Allow Elevation of Privilege
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-2013
+KB: KB2817183
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 9
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-2013
+KB: KB2817183
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 8
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110111
+CVE: CVE-2011-0027
+KB: KB2419640
+Title: Vulnerabilities in Microsoft Data Access Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Data Access Components 6.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0181
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0181
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0181
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0164
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0164
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0164
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110308
+CVE: CVE-2011-0042
+KB: KB2479943
+Title: Vulnerabilities in Windows Media Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-1848
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-1848
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-1848
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1853
+KB: KB2712808
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1853
+KB: KB2705219
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100209
+CVE: CVE-2010-0250
+KB: KB975560
+Title: Vulnerability in Microsoft DirectShow Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft DirectX
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0161
+KB: KB2604114
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110308
+CVE: CVE-2011-0032
+KB: KB2479943
+Title: Vulnerabilities in Windows Media Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-2014
+KB: KB2817183
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 9
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130409
+CVE: CVE-2013-2014
+KB: KB2817183
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 8
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20081111
+CVE: CVE-2008-4033
+KB: KB954430
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 4.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-1527
+KB: KB2727528
+Title: Vulnerabilities in Windows Shell Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1852
+KB: KB2712808
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1852
+KB: KB2705219
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-1528
+KB: KB2727528
+Title: Vulnerabilities in Windows Shell Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-2519
+KB: KB2729451
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-4777
+KB: KB2729451
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100713
+CVE: CVE-2009-3678
+KB: KB2032276
+Title: Vulnerability in Canonical Display Driver Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100914
+CVE: CVE-2010-2729
+KB: KB2347290
+Title: Vulnerability in Print Spooler Service Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20121113
+CVE: CVE-2012-4776
+KB: KB2729451
+Title: Vulnerabilities in .NET Framework Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100810
+CVE: CVE-2010-2561
+KB: KB2079403
+Title: Vulnerability in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 3.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120710
+CVE: CVE-2012-1891
+KB: KB2698365
+Title: Vulnerability in Microsoft Data Access Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Data Access Components 6.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1850
+KB: KB2712808
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120814
+CVE: CVE-2012-1850
+KB: KB2705219
+Title: Vulnerabilities in Windows Networking Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2011-3402
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2011-3402
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2011-3402
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110209
+CVE: SPSRV8R2X64SP1
+KB: KBSPSRV8R2X64SP1
+Title: Windows Server 2008 R2 for x64-based Systems Service Pack 1
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: No more updates
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0180
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0180
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0180
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120710
+CVE: CVE-2012-1524
+KB: KB2719177
+Title: Cumulative Security Update for Internet Explorer
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Internet Explorer 9
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20081111
+CVE: CVE-2008-4029
+KB: KB954430
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 4.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20111229
+CVE: CVE-2011-3417
+KB: KB2656355
+Title: Vulnerabilities in .NET Framework Could Allow Elevation of Privilege
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Elevation of Privilege
+Exploit: n/a
+
+Date: 20130108
+CVE: CVE-2013-0007
+KB: KB2758694
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 4.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130108
+CVE: CVE-2013-0007
+KB: KB2757638
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 3.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20130108
+CVE: CVE-2013-0007
+KB: KB2757638
+Title: Vulnerabilities in Microsoft XML Core Services Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft XML Core Services 6.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120313
+CVE: CVE-2012-0152
+KB: KB2667402
+Title: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120313
+CVE: CVE-2012-0152
+KB: KB2621440
+Title: Vulnerabilities in Remote Desktop Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0159
+KB: KB2659262
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0159
+KB: KB2656410
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Microsoft .NET Framework 3.5.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20120508
+CVE: CVE-2012-0159
+KB: KB2676562
+Title: Combined Security Update for Microsoft Office, Windows, .NET Framework, and Silverlight
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110412
+CVE: CVE-2011-0657
+KB: KB2509553
+Title: Vulnerability in DNS Resolution Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: 
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100608
+CVE: CVE-2010-1880
+KB: KB979482
+Title: Vulnerabilities in Media Decompression Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Asycfilt.dll (COM component)
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20110111
+CVE: CVE-2011-0026
+KB: KB2419640
+Title: Vulnerabilities in Microsoft Data Access Components Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Windows Data Access Components 6.0
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+Date: 20100413
+CVE: CVE-2010-0487
+KB: KB979309
+Title: Vulnerabilities in Windows Could Allow Remote Code Execution
+Affected product: Windows Server 2008 R2 for x64-based Systems
+Affected component: Cabinet File Viewer Shell Extension 6.1
+Severity: Critical
+Impact: Remote Code Execution
+Exploit: n/a
+
+[+] Missing patches: 40
+    - KB2659262: patches 10 vulnerabilities
+    - KB2656410: patches 10 vulnerabilities
+    - KB2676562: patches 10 vulnerabilities
+    - KB2817183: patches 6 vulnerabilities
+    - KB2729451: patches 5 vulnerabilities
+    - KB2712808: patches 4 vulnerabilities
+    - KB2705219: patches 4 vulnerabilities
+    - KB2757638: patches 4 vulnerabilities
+    - KB2656355: patches 3 vulnerabilities
+    - KB954430: patches 3 vulnerabilities
+    - KB2631813: patches 2 vulnerabilities
+    - KB979482: patches 2 vulnerabilities
+    - KB2667402: patches 2 vulnerabilities
+    - KB2621440: patches 2 vulnerabilities
+    - KB2535512: patches 2 vulnerabilities
+    - KB2753842: patches 2 vulnerabilities
+    - KB2604114: patches 2 vulnerabilities
+    - KB2719177: patches 2 vulnerabilities
+    - KB979309: patches 2 vulnerabilities
+    - KB2758694: patches 2 vulnerabilities
+    - KB2419640: patches 2 vulnerabilities
+    - KB2479943: patches 2 vulnerabilities
+    - KB2727528: patches 2 vulnerabilities
+    - KB2769369: patches 1 vulnerability
+    - KB972270: patches 1 vulnerability
+    - KB2758857: patches 1 vulnerability
+    - KB2536276: patches 1 vulnerability
+    - KB2654428: patches 1 vulnerability
+    - KB2653956: patches 1 vulnerability
+    - KB978542: patches 1 vulnerability
+    - KB982132: patches 1 vulnerability
+    - KB2685939: patches 1 vulnerability
+    - KB2618451: patches 1 vulnerability
+    - KB2813347: patches 1 vulnerability
+    - KB975560: patches 1 vulnerability
+    - KB2032276: patches 1 vulnerability
+    - KB2347290: patches 1 vulnerability
+    - KB2079403: patches 1 vulnerability
+    - KB2698365: patches 1 vulnerability
+    - KB2509553: patches 1 vulnerability
+[+] Missing service pack
+    - Windows Server 2008 R2 for x64-based Systems Service Pack 1
+[+] KB with the most recent release date
+    - ID: KB2817183
+    - Release date: 20130409
+
+[+] Done. Displaying 103 of the 207 vulnerabilities found.
