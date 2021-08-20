@@ -1,0 +1,12 @@
+# Nmap 7.91 scan initiated Tue Aug 17 06:45:28 2021 as: nmap -sU -sC -sV -p 21,22,139,445 -oA /home/bernhard/htb/lame/scans/nmap_udp_scripts 10.129.187.154
+Nmap scan report for 10.129.187.154
+Host is up (0.046s latency).
+
+PORT    STATE         SERVICE      VERSION
+21/udp  open|filtered ftp
+22/udp  closed        ssh
+139/udp closed        netbios-ssn
+445/udp closed        microsoft-ds
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Aug 17 06:47:23 2021 -- 1 IP address (1 host up) scanned in 114.93 seconds

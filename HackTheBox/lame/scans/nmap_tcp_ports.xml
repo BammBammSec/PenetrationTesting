@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 17 06:34:32 2021 as: nmap -sT -p- -&#45;min-rate 10000 -oA /home/bernhard/htb/lame/scans/nmap_tcp_ports 10.129.187.154 -->
+<nmaprun scanner="nmap" args="nmap -sT -p- -&#45;min-rate 10000 -oA /home/bernhard/htb/lame/scans/nmap_tcp_ports 10.129.187.154" start="1629174872" startstr="Tue Aug 17 06:34:32 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.187.154" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1629174872" endtime="1629174898"><status state="up" reason="echo-reply" reason_ttl="63"/>
+<address addr="10.129.187.154" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65531">
+<extrareasons reason="no-responses" count="65531"/>
+</extraports>
+<port protocol="tcp" portid="21"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ftp" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="53173" rttvar="35495" to="195153"/>
+</host>
+<runstats><finished time="1629174898" timestr="Tue Aug 17 06:34:58 2021" summary="Nmap done at Tue Aug 17 06:34:58 2021; 1 IP address (1 host up) scanned in 25.94 seconds" elapsed="25.94" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 17 08:00:09 2021 as: nmap -vv -&#45;reason -Pn -sV -p 445 &quot;-&#45;script=banner,(nbstat or smb* or samba* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -&#45;script-args=unsafe=1 -oA /home/bernhard/htb/lame/scans/tcp_445_nmap 10.129.187.154 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -sV -p 445 &quot;-&#45;script=banner,(nbstat or smb* or samba* or ssl*) and not (brute or broadcast or dos or external or fuzzer)&quot; -&#45;script-args=unsafe=1 -oA /home/bernhard/htb/lame/scans/tcp_445_nmap 10.129.187.154" start="1629180009" startstr="Tue Aug 17 08:00:09 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="445"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1629180009"/>
+<taskend task="NSE" time="1629180009"/>
+<taskbegin task="NSE" time="1629180009"/>
+<taskend task="NSE" time="1629180009"/>
+<taskbegin task="NSE" time="1629180009"/>
+<taskend task="NSE" time="1629180009"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1629180009"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1629180009"/>
+<taskbegin task="SYN Stealth Scan" time="1629180009"/>
+<taskend task="SYN Stealth Scan" time="1629180009" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1629180010"/>
+<taskend task="Service scan" time="1629180016" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1629180016"/>
+<taskprogress task="NSE" time="1629180047" percent="87.32" remaining="5" etc="1629180052"/>
+<taskprogress task="NSE" time="1629180077" percent="95.77" remaining="3" etc="1629180080"/>
+<taskprogress task="NSE" time="1629180107" percent="95.77" remaining="5" etc="1629180111"/>
+<taskprogress task="NSE" time="1629180137" percent="97.18" remaining="4" etc="1629180141"/>
+<taskprogress task="NSE" time="1629180167" percent="97.18" remaining="5" etc="1629180171"/>
+<taskprogress task="NSE" time="1629180197" percent="98.59" remaining="3" etc="1629180200"/>
+<taskprogress task="NSE" time="1629180227" percent="98.59" remaining="4" etc="1629180230"/>
+<taskprogress task="NSE" time="1629180257" percent="98.59" remaining="4" etc="1629180260"/>
+<taskprogress task="NSE" time="1629180287" percent="98.59" remaining="4" etc="1629180291"/>
+<taskprogress task="NSE" time="1629180317" percent="98.59" remaining="5" etc="1629180321"/>
+<taskprogress task="NSE" time="1629180347" percent="98.59" remaining="5" etc="1629180352"/>
+<taskprogress task="NSE" time="1629180377" percent="98.59" remaining="6" etc="1629180382"/>
+<taskend task="NSE" time="1629180394"/>
+<taskbegin task="NSE" time="1629180394"/>
+<taskprogress task="NSE" time="1629180425" percent="92.31" remaining="3" etc="1629180428"/>
+<taskprogress task="NSE" time="1629180455" percent="92.31" remaining="6" etc="1629180460"/>
+<taskend task="NSE" time="1629180466"/>
+<taskbegin task="NSE" time="1629180466"/>
+<taskend task="NSE" time="1629180466"/>
+<host starttime="1629180009" endtime="1629180466"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.187.154" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="netbios-ssn" product="Samba smbd" version="3.0.20-Debian" extrainfo="workgroup: WORKGROUP" method="probed" conf="10"><cpe>cpe:/a:samba:samba</cpe></service></port>
+</ports>
+<hostscript><script id="smb-enum-sessions" output="ERROR: Script execution failed (use -d to debug)"/><script id="smb-enum-shares" output="&#xa;  account_used: &lt;blank&gt;&#xa;  \\10.129.187.154\ADMIN$: &#xa;    Type: STYPE_IPC&#xa;    Comment: IPC Service (lame server (Samba 3.0.20-Debian))&#xa;    Users: 1&#xa;    Max Users: &lt;unlimited&gt;&#xa;    Path: C:\tmp&#xa;    Anonymous access: &lt;none&gt;&#xa;  \\10.129.187.154\IPC$: &#xa;    Type: STYPE_IPC&#xa;    Comment: IPC Service (lame server (Samba 3.0.20-Debian))&#xa;    Users: 1&#xa;    Max Users: &lt;unlimited&gt;&#xa;    Path: C:\tmp&#xa;    Anonymous access: READ/WRITE&#xa;  \\10.129.187.154\opt: &#xa;    Type: STYPE_DISKTREE&#xa;    Comment: &#xa;    Users: 1&#xa;    Max Users: &lt;unlimited&gt;&#xa;    Path: C:\tmp&#xa;    Anonymous access: &lt;none&gt;&#xa;  \\10.129.187.154\print$: &#xa;    Type: STYPE_DISKTREE&#xa;    Comment: Printer Drivers&#xa;    Users: 1&#xa;    Max Users: &lt;unlimited&gt;&#xa;    Path: C:\var\lib\samba\printers&#xa;    Anonymous access: &lt;none&gt;&#xa;  \\10.129.187.154\tmp: &#xa;    Type: STYPE_DISKTREE&#xa;    Comment: oh noes!&#xa;    Users: 1&#xa;    Max Users: &lt;unlimited&gt;&#xa;    Path: C:\tmp&#xa;    Anonymous access: READ/WRITE"><elem key="account_used">&lt;blank&gt;</elem>
+<table key="\\10.129.187.154\ADMIN$">
+<elem key="Type">STYPE_IPC</elem>
+<elem key="Comment">IPC Service (lame server (Samba 3.0.20-Debian))</elem>
+<elem key="Users">1</elem>
+<elem key="Max Users">&lt;unlimited&gt;</elem>
+<elem key="Path">C:\tmp</elem>
+<elem key="Anonymous access">&lt;none&gt;</elem>
+</table>
+<table key="\\10.129.187.154\IPC$">
+<elem key="Type">STYPE_IPC</elem>
+<elem key="Comment">IPC Service (lame server (Samba 3.0.20-Debian))</elem>
+<elem key="Users">1</elem>
+<elem key="Max Users">&lt;unlimited&gt;</elem>
+<elem key="Path">C:\tmp</elem>
+<elem key="Anonymous access">READ/WRITE</elem>
+</table>
+<table key="\\10.129.187.154\opt">
+<elem key="Type">STYPE_DISKTREE</elem>
+<elem key="Comment"></elem>
+<elem key="Users">1</elem>
+<elem key="Max Users">&lt;unlimited&gt;</elem>
+<elem key="Path">C:\tmp</elem>
+<elem key="Anonymous access">&lt;none&gt;</elem>
+</table>
+<table key="\\10.129.187.154\print$">
+<elem key="Type">STYPE_DISKTREE</elem>
+<elem key="Comment">Printer Drivers</elem>
+<elem key="Users">1</elem>
+<elem key="Max Users">&lt;unlimited&gt;</elem>
+<elem key="Path">C:\var\lib\samba\printers</elem>
+<elem key="Anonymous access">&lt;none&gt;</elem>
+</table>
+<table key="\\10.129.187.154\tmp">
+<elem key="Type">STYPE_DISKTREE</elem>
+<elem key="Comment">oh noes!</elem>
+<elem key="Users">1</elem>
+<elem key="Max Users">&lt;unlimited&gt;</elem>
+<elem key="Path">C:\tmp</elem>
+<elem key="Anonymous access">READ/WRITE</elem>
+</table>
+</script><script id="smb-enum-users" output="&#xa;  LAME\backup (RID: 1068)&#xa;    Full name:   backup&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\bin (RID: 1004)&#xa;    Full name:   bin&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\bind (RID: 1210)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\daemon (RID: 1002)&#xa;    Full name:   daemon&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\dhcp (RID: 1202)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\distccd (RID: 1222)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\ftp (RID: 1214)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\games (RID: 1010)&#xa;    Full name:   games&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\gnats (RID: 1082)&#xa;    Full name:   Gnats Bug-Reporting System (admin)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\irc (RID: 1078)&#xa;    Full name:   ircd&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\klog (RID: 1206)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\libuuid (RID: 1200)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\list (RID: 1076)&#xa;    Full name:   Mailing List Manager&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\lp (RID: 1014)&#xa;    Full name:   lp&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\mail (RID: 1016)&#xa;    Full name:   mail&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\man (RID: 1012)&#xa;    Full name:   man&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\msfadmin (RID: 3000)&#xa;    Full name:   msfadmin,,,&#xa;    Flags:       Normal user account&#xa;  LAME\mysql (RID: 1218)&#xa;    Full name:   MySQL Server,,,&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\news (RID: 1018)&#xa;    Full name:   news&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\nobody (RID: 501)&#xa;    Full name:   nobody&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\postfix (RID: 1212)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\postgres (RID: 1216)&#xa;    Full name:   PostgreSQL administrator,,,&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\proftpd (RID: 1226)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\proxy (RID: 1026)&#xa;    Full name:   proxy&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\root (RID: 1000)&#xa;    Full name:   root&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\service (RID: 3004)&#xa;    Full name:   ,,,&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\sshd (RID: 1208)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\sync (RID: 1008)&#xa;    Full name:   sync&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\sys (RID: 1006)&#xa;    Full name:   sys&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\syslog (RID: 1204)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\telnetd (RID: 1224)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\tomcat55 (RID: 1220)&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\user (RID: 3002)&#xa;    Full name:   just a user,111,,&#xa;    Flags:       Normal user account&#xa;  LAME\uucp (RID: 1020)&#xa;    Full name:   uucp&#xa;    Flags:       Account disabled, Normal user account&#xa;  LAME\www-data (RID: 1066)&#xa;    Full name:   www-data&#xa;    Flags:       Account disabled, Normal user account&#xa;"/><script id="smb-ls" output="Volume \\10.129.187.154\tmp&#xa;SIZE   TIME                 FILENAME&#xa;&lt;DIR&gt;  2021-08-17T06:04:21  .&#xa;&lt;DIR&gt;  2020-10-31T06:33:58  ..&#xa;0      2021-08-16T13:07:46  5580.jsvc_up&#xa;&lt;DIR&gt;  2021-08-16T13:06:29  vmware-root&#xa;1600   2021-08-16T13:06:29  vgauthsvclog.txt.0&#xa;&#xa;"><table key="volumes">
+<table>
+<table key="files">
+<table>
+<elem key="time">2021-08-17T06:04:21</elem>
+<elem key="filename">.</elem>
+<elem key="size">&lt;DIR&gt;</elem>
+</table>
+<table>
+<elem key="time">2020-10-31T06:33:58</elem>
+<elem key="filename">..</elem>
+<elem key="size">&lt;DIR&gt;</elem>
+</table>
+<table>
+<elem key="time">2021-08-16T13:07:46</elem>
+<elem key="filename">5580.jsvc_up</elem>
+<elem key="size">0</elem>
+</table>
+<table>
+<elem key="time">2021-08-16T13:06:29</elem>
+<elem key="filename">vmware-root</elem>
+<elem key="size">&lt;DIR&gt;</elem>
+</table>
+<table>
+<elem key="time">2021-08-16T13:06:29</elem>
+<elem key="filename">vgauthsvclog.txt.0</elem>
+<elem key="size">1600</elem>
+</table>
+</table>
+<elem key="volume">\\10.129.187.154\tmp</elem>
+</table>
+</table>
+<table key="total">
+<elem key="bytes">1600</elem>
+<elem key="files">5</elem>
+</table>
+</script><script id="smb-mbenum" output="&#xa;  Master Browser&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;  Print server&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;  Server&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;  Server service&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;  Unix server&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;  Windows NT/2000/XP/2003 server&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;  Workstation&#xa;    LAME  0.0  lame server (Samba 3.0.20-Debian)&#xa;"/><script id="smb-os-discovery" output="&#xa;  OS: Unix (Samba 3.0.20-Debian)&#xa;  Computer name: lame&#xa;  NetBIOS computer name: &#xa;  Domain name: hackthebox.gr&#xa;  FQDN: lame.hackthebox.gr&#xa;  System time: 2021-08-17T02:02:06-04:00&#xa;"><elem key="os">Unix</elem>
+<elem key="lanmanager">Samba 3.0.20-Debian</elem>
+<elem key="server"></elem>
+<elem key="date">2021-08-17T02:02:06-04:00</elem>
+<elem key="fqdn">lame.hackthebox.gr</elem>
+<elem key="domain_dns">hackthebox.gr</elem>
+<elem key="workgroup">WORKGROUP\x00</elem>
+</script><script id="smb-print-text" output="false">false</script><script id="smb-protocols" output="&#xa;  dialects: &#xa;    NT LM 0.12 (SMBv1) [dangerous, but default]"><table key="dialects">
+<elem>NT LM 0.12 (SMBv1) [dangerous, but default]</elem>
+</table>
+</script><script id="smb-security-mode" output="&#xa;  account_used: &lt;blank&gt;&#xa;  authentication_level: user&#xa;  challenge_response: supported&#xa;  message_signing: disabled (dangerous, but default)"><elem key="account_used">&lt;blank&gt;</elem>
+<elem key="authentication_level">user</elem>
+<elem key="challenge_response">supported</elem>
+<elem key="message_signing">disabled</elem>
+</script><script id="smb-system-info" output="ERROR: Script execution failed (use -d to debug)"/><script id="smb-vuln-ms10-061" output="false">false</script><script id="smb2-capabilities" output="Couldn&apos;t establish a SMBv2 connection."/><script id="smb2-security-mode" output="Couldn&apos;t establish a SMBv2 connection."/><script id="smb2-time" output="Protocol negotiation failed (SMB2)"/></hostscript><times srtt="31202" rttvar="31202" to="156010"/>
+</host>
+<taskbegin task="NSE" time="1629180466"/>
+<taskend task="NSE" time="1629180466"/>
+<taskbegin task="NSE" time="1629180466"/>
+<taskend task="NSE" time="1629180466"/>
+<taskbegin task="NSE" time="1629180466"/>
+<taskend task="NSE" time="1629180466"/>
+<runstats><finished time="1629180466" timestr="Tue Aug 17 08:07:46 2021" summary="Nmap done at Tue Aug 17 08:07:46 2021; 1 IP address (1 host up) scanned in 456.91 seconds" elapsed="456.91" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

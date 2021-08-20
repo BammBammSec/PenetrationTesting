@@ -1,0 +1,6 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-17 19:19 CEST
+Nmap scan report for 10.129.1.110
+Host is up (0.045s latency).
+All 65535 scanned ports on 10.129.1.110 are open|filtered
+
+Nmap done: 1 IP address (1 host up) scanned in 83.19 seconds

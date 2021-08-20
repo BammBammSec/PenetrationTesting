@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Aug 17 06:45:28 2021 as: nmap -sU -sC -sV -p 21,22,139,445 -oA /home/bernhard/htb/lame/scans/nmap_udp_scripts 10.129.187.154
+Host: 10.129.187.154 ()	Status: Up
+Host: 10.129.187.154 ()	Ports: 21/open|filtered/udp//ftp///, 22/closed/udp//ssh///, 139/closed/udp//netbios-ssn///, 445/closed/udp//microsoft-ds///
+# Nmap done at Tue Aug 17 06:47:23 2021 -- 1 IP address (1 host up) scanned in 114.93 seconds

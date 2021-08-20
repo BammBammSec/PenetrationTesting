@@ -1,0 +1,4 @@
+# Nmap 7.91 scan initiated Tue Aug 17 19:21:06 2021 as: nmap -sC -sV -p 8080 -oA /home/bernhard/htb/jerry/scans/nmap_tcp_scripts 10.129.1.110
+Host: 10.129.1.110 ()	Status: Up
+Host: 10.129.1.110 ()	Ports: 8080/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/
+# Nmap done at Tue Aug 17 19:21:19 2021 -- 1 IP address (1 host up) scanned in 12.76 seconds

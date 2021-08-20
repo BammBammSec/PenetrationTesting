@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 17 21:04:58 2021 as: nmap -vv -p- -oA nmap_tcp_ports -&#45;max-retries 0 10.129.188.43 -->
+<nmaprun scanner="nmap" args="nmap -vv -p- -oA nmap_tcp_ports -&#45;max-retries 0 10.129.188.43" start="1629227098" startstr="Tue Aug 17 21:04:58 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1629227098"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.188.43" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1629227098" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1629227098"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1629227098"/>
+<taskbegin task="SYN Stealth Scan" time="1629227098"/>
+<taskprogress task="SYN Stealth Scan" time="1629227129" percent="14.18" remaining="188" etc="1629227317"/>
+<taskprogress task="SYN Stealth Scan" time="1629227159" percent="27.38" remaining="162" etc="1629227321"/>
+<taskprogress task="SYN Stealth Scan" time="1629227189" percent="40.34" remaining="135" etc="1629227324"/>
+<taskprogress task="SYN Stealth Scan" time="1629227219" percent="53.39" remaining="106" etc="1629227325"/>
+<taskprogress task="SYN Stealth Scan" time="1629227249" percent="66.15" remaining="78" etc="1629227326"/>
+<taskprogress task="SYN Stealth Scan" time="1629227279" percent="78.50" remaining="50" etc="1629227329"/>
+<taskend task="SYN Stealth Scan" time="1629227327" extrainfo="65535 total ports"/>
+<host starttime="1629227098" endtime="1629227327"><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="10.129.188.43" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="59876">
+<extrareasons reason="no-responses" count="59876"/>
+</extraports>
+<extraports state="closed" count="5657">
+<extrareasons reason="resets" count="5657"/>
+</extraports>
+<port protocol="tcp" portid="79"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="finger" method="table" conf="3"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="rpcbind" method="table" conf="3"/></port>
+</ports>
+<times srtt="116952" rttvar="3505" to="130972"/>
+</host>
+<runstats><finished time="1629227327" timestr="Tue Aug 17 21:08:47 2021" summary="Nmap done at Tue Aug 17 21:08:47 2021; 1 IP address (1 host up) scanned in 230.01 seconds" elapsed="230.01" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

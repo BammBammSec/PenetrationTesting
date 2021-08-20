@@ -1,0 +1,245 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-17 07:51 CEST
+NSE: Loaded 85 scripts for scanning.
+NSE: Script Pre-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 07:51
+Completed NSE at 07:51, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 07:51
+Completed NSE at 07:51, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 07:51
+Completed NSE at 07:51, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 07:51
+Completed Parallel DNS resolution of 1 host. at 07:51, 0.02s elapsed
+Initiating SYN Stealth Scan at 07:51
+Scanning 10.129.187.154 [1 port]
+Discovered open port 139/tcp on 10.129.187.154
+Completed SYN Stealth Scan at 07:51, 0.07s elapsed (1 total ports)
+Initiating Service scan at 07:51
+Scanning 1 service on 10.129.187.154
+Completed Service scan at 07:51, 11.28s elapsed (1 service on 1 host)
+NSE: Script scanning 10.129.187.154.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 07:51
+NSE Timing: About 87.32% done; ETC: 07:52 (0:00:05 remaining)
+NSE Timing: About 95.77% done; ETC: 07:52 (0:00:03 remaining)
+NSE Timing: About 95.77% done; ETC: 07:53 (0:00:04 remaining)
+NSE Timing: About 95.77% done; ETC: 07:53 (0:00:05 remaining)
+NSE Timing: About 97.18% done; ETC: 07:54 (0:00:04 remaining)
+NSE Timing: About 97.18% done; ETC: 07:54 (0:00:05 remaining)
+NSE Timing: About 98.59% done; ETC: 07:55 (0:00:03 remaining)
+NSE Timing: About 98.59% done; ETC: 07:55 (0:00:03 remaining)
+NSE Timing: About 98.59% done; ETC: 07:56 (0:00:04 remaining)
+NSE Timing: About 98.59% done; ETC: 07:56 (0:00:04 remaining)
+NSE Timing: About 98.59% done; ETC: 07:57 (0:00:05 remaining)
+NSE Timing: About 98.59% done; ETC: 07:57 (0:00:05 remaining)
+Completed NSE at 07:58, 383.30s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 07:58
+NSE Timing: About 92.31% done; ETC: 07:58 (0:00:03 remaining)
+NSE Timing: About 92.31% done; ETC: 07:59 (0:00:05 remaining)
+NSE Timing: About 92.31% done; ETC: 07:59 (0:00:08 remaining)
+Completed NSE at 08:00, 115.58s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 08:00
+Completed NSE at 08:00, 0.00s elapsed
+Nmap scan report for 10.129.187.154
+Host is up, received user-set (0.037s latency).
+Scanned at 2021-08-17 07:51:38 CEST for 511s
+
+PORT    STATE SERVICE     REASON         VERSION
+139/tcp open  netbios-ssn syn-ack ttl 63 Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)
+
+Host script results:
+|_smb-enum-sessions: ERROR: Script execution failed (use -d to debug)
+| smb-enum-shares: 
+|   account_used: <blank>
+|   \\10.129.187.154\ADMIN$: 
+|     Type: STYPE_IPC
+|     Comment: IPC Service (lame server (Samba 3.0.20-Debian))
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\tmp
+|     Anonymous access: <none>
+|   \\10.129.187.154\IPC$: 
+|     Type: STYPE_IPC
+|     Comment: IPC Service (lame server (Samba 3.0.20-Debian))
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\tmp
+|     Anonymous access: READ/WRITE
+|   \\10.129.187.154\opt: 
+|     Type: STYPE_DISKTREE
+|     Comment: 
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\tmp
+|     Anonymous access: <none>
+|   \\10.129.187.154\print$: 
+|     Type: STYPE_DISKTREE
+|     Comment: Printer Drivers
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\var\lib\samba\printers
+|     Anonymous access: <none>
+|   \\10.129.187.154\tmp: 
+|     Type: STYPE_DISKTREE
+|     Comment: oh noes!
+|     Users: 1
+|     Max Users: <unlimited>
+|     Path: C:\tmp
+|_    Anonymous access: READ/WRITE
+| smb-enum-users: 
+|   LAME\backup (RID: 1068)
+|     Full name:   backup
+|     Flags:       Normal user account, Account disabled
+|   LAME\bin (RID: 1004)
+|     Full name:   bin
+|     Flags:       Normal user account, Account disabled
+|   LAME\bind (RID: 1210)
+|     Flags:       Normal user account, Account disabled
+|   LAME\daemon (RID: 1002)
+|     Full name:   daemon
+|     Flags:       Normal user account, Account disabled
+|   LAME\dhcp (RID: 1202)
+|     Flags:       Normal user account, Account disabled
+|   LAME\distccd (RID: 1222)
+|     Flags:       Normal user account, Account disabled
+|   LAME\ftp (RID: 1214)
+|     Flags:       Normal user account, Account disabled
+|   LAME\games (RID: 1010)
+|     Full name:   games
+|     Flags:       Normal user account, Account disabled
+|   LAME\gnats (RID: 1082)
+|     Full name:   Gnats Bug-Reporting System (admin)
+|     Flags:       Normal user account, Account disabled
+|   LAME\irc (RID: 1078)
+|     Full name:   ircd
+|     Flags:       Normal user account, Account disabled
+|   LAME\klog (RID: 1206)
+|     Flags:       Normal user account, Account disabled
+|   LAME\libuuid (RID: 1200)
+|     Flags:       Normal user account, Account disabled
+|   LAME\list (RID: 1076)
+|     Full name:   Mailing List Manager
+|     Flags:       Normal user account, Account disabled
+|   LAME\lp (RID: 1014)
+|     Full name:   lp
+|     Flags:       Normal user account, Account disabled
+|   LAME\mail (RID: 1016)
+|     Full name:   mail
+|     Flags:       Normal user account, Account disabled
+|   LAME\man (RID: 1012)
+|     Full name:   man
+|     Flags:       Normal user account, Account disabled
+|   LAME\msfadmin (RID: 3000)
+|     Full name:   msfadmin,,,
+|     Flags:       Normal user account
+|   LAME\mysql (RID: 1218)
+|     Full name:   MySQL Server,,,
+|     Flags:       Normal user account, Account disabled
+|   LAME\news (RID: 1018)
+|     Full name:   news
+|     Flags:       Normal user account, Account disabled
+|   LAME\nobody (RID: 501)
+|     Full name:   nobody
+|     Flags:       Normal user account, Account disabled
+|   LAME\postfix (RID: 1212)
+|     Flags:       Normal user account, Account disabled
+|   LAME\postgres (RID: 1216)
+|     Full name:   PostgreSQL administrator,,,
+|     Flags:       Normal user account, Account disabled
+|   LAME\proftpd (RID: 1226)
+|     Flags:       Normal user account, Account disabled
+|   LAME\proxy (RID: 1026)
+|     Full name:   proxy
+|     Flags:       Normal user account, Account disabled
+|   LAME\root (RID: 1000)
+|     Full name:   root
+|     Flags:       Normal user account, Account disabled
+|   LAME\service (RID: 3004)
+|     Full name:   ,,,
+|     Flags:       Normal user account, Account disabled
+|   LAME\sshd (RID: 1208)
+|     Flags:       Normal user account, Account disabled
+|   LAME\sync (RID: 1008)
+|     Full name:   sync
+|     Flags:       Normal user account, Account disabled
+|   LAME\sys (RID: 1006)
+|     Full name:   sys
+|     Flags:       Normal user account, Account disabled
+|   LAME\syslog (RID: 1204)
+|     Flags:       Normal user account, Account disabled
+|   LAME\telnetd (RID: 1224)
+|     Flags:       Normal user account, Account disabled
+|   LAME\tomcat55 (RID: 1220)
+|     Flags:       Normal user account, Account disabled
+|   LAME\user (RID: 3002)
+|     Full name:   just a user,111,,
+|     Flags:       Normal user account
+|   LAME\uucp (RID: 1020)
+|     Full name:   uucp
+|     Flags:       Normal user account, Account disabled
+|   LAME\www-data (RID: 1066)
+|     Full name:   www-data
+|_    Flags:       Normal user account, Account disabled
+| smb-ls: Volume \\10.129.187.154\tmp
+| SIZE   TIME                 FILENAME
+| <DIR>  2021-08-17T05:56:32  .
+| <DIR>  2020-10-31T06:33:58  ..
+| 0      2021-08-16T13:07:46  5580.jsvc_up
+| <DIR>  2021-08-16T13:06:29  vmware-root
+| 1600   2021-08-16T13:06:29  vgauthsvclog.txt.0
+|_
+| smb-mbenum: 
+|   Master Browser
+|     LAME  0.0  lame server (Samba 3.0.20-Debian)
+|   Print server
+|     LAME  0.0  lame server (Samba 3.0.20-Debian)
+|   Server
+|     LAME  0.0  lame server (Samba 3.0.20-Debian)
+|   Server service
+|     LAME  0.0  lame server (Samba 3.0.20-Debian)
+|   Unix server
+|     LAME  0.0  lame server (Samba 3.0.20-Debian)
+|   Windows NT/2000/XP/2003 server
+|     LAME  0.0  lame server (Samba 3.0.20-Debian)
+|   Workstation
+|_    LAME  0.0  lame server (Samba 3.0.20-Debian)
+| smb-os-discovery: 
+|   OS: Unix (Samba 3.0.20-Debian)
+|   Computer name: lame
+|   NetBIOS computer name: 
+|   Domain name: hackthebox.gr
+|   FQDN: lame.hackthebox.gr
+|_  System time: 2021-08-17T01:53:29-04:00
+|_smb-print-text: false
+| smb-protocols: 
+|   dialects: 
+|_    NT LM 0.12 (SMBv1) [dangerous, but default]
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb-system-info: ERROR: Script execution failed (use -d to debug)
+|_smb-vuln-ms10-061: false
+|_smb2-capabilities: Couldn't establish a SMBv2 connection.
+|_smb2-security-mode: Couldn't establish a SMBv2 connection.
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+NSE: Script Post-scanning.
+NSE: Starting runlevel 1 (of 3) scan.
+Initiating NSE at 08:00
+Completed NSE at 08:00, 0.00s elapsed
+NSE: Starting runlevel 2 (of 3) scan.
+Initiating NSE at 08:00
+Completed NSE at 08:00, 0.00s elapsed
+NSE: Starting runlevel 3 (of 3) scan.
+Initiating NSE at 08:00
+Completed NSE at 08:00, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 511.04 seconds
+           Raw packets sent: 1 (44B) | Rcvd: 1 (44B)

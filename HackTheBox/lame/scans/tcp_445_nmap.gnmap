@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Tue Aug 17 08:00:09 2021 as: nmap -vv --reason -Pn -sV -p 445 "--script=banner,(nbstat or smb* or samba* or ssl*) and not (brute or broadcast or dos or external or fuzzer)" --script-args=unsafe=1 -oA /home/bernhard/htb/lame/scans/tcp_445_nmap 10.129.187.154
+# Ports scanned: TCP(1;445) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.187.154 ()	Status: Up
+Host: 10.129.187.154 ()	Ports: 445/open/tcp//netbios-ssn//Samba smbd 3.0.20-Debian (workgroup: WORKGROUP)/
+# Nmap done at Tue Aug 17 08:07:46 2021 -- 1 IP address (1 host up) scanned in 456.91 seconds

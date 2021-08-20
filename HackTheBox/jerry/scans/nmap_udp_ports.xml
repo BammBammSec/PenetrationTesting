@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Tue Aug 17 19:19:43 2021 as: nmap -sU -p- -&#45;min-rate 10000 -oA /home/bernhard/htb/jerry/scans/nmap_udp_ports 10.129.1.110 -->
+<nmaprun scanner="nmap" args="nmap -sU -p- -&#45;min-rate 10000 -oA /home/bernhard/htb/jerry/scans/nmap_udp_ports 10.129.1.110" start="1629220783" startstr="Tue Aug 17 19:19:43 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="udp" protocol="udp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.1.110" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1629220783" endtime="1629220866"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.129.1.110" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="open|filtered" count="65535">
+<extrareasons reason="no-responses" count="65535"/>
+</extraports>
+</ports>
+<times srtt="44921" rttvar="44921" to="224605"/>
+</host>
+<runstats><finished time="1629220866" timestr="Tue Aug 17 19:21:06 2021" summary="Nmap done at Tue Aug 17 19:21:06 2021; 1 IP address (1 host up) scanned in 83.19 seconds" elapsed="83.19" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,11 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-08-17 06:36 CEST
+Nmap scan report for 10.129.187.154
+Host is up (0.11s latency).
+Not shown: 65531 open|filtered ports
+PORT     STATE  SERVICE
+22/udp   closed ssh
+139/udp  closed netbios-ssn
+445/udp  closed microsoft-ds
+3632/udp closed distcc
+
+Nmap done: 1 IP address (1 host up) scanned in 75.08 seconds

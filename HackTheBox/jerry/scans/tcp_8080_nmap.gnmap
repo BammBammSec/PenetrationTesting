@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Tue Aug 17 19:32:29 2021 as: nmap -vv --reason -Pn -sV -p 8080 "--script=banner,(http* or ssl*) and not (brute or broadcast or dos or external or http-slowloris* or fuzzer)" -oA /home/bernhard/htb/jerry/scans/tcp_8080_nmap 10.129.1.110
+# Ports scanned: TCP(1;8080) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.1.110 ()	Status: Up
+Host: 10.129.1.110 ()	Ports: 8080/open/tcp//http//Apache Tomcat|Coyote JSP engine 1.1/
+# Nmap done at Tue Aug 17 19:36:32 2021 -- 1 IP address (1 host up) scanned in 243.22 seconds

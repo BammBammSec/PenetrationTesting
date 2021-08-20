@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Aug 18 19:49:50 2021 as: nmap -vv -&#45;reason -Pn -sV -p 79 -&#45;script=banner,finger -oA tcp_79_nmap 10.129.188.80 -->
+<nmaprun scanner="nmap" args="nmap -vv -&#45;reason -Pn -sV -p 79 -&#45;script=banner,finger -oA tcp_79_nmap 10.129.188.80" start="1629308990" startstr="Wed Aug 18 19:49:50 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="79"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1629308990"/>
+<taskend task="NSE" time="1629308990"/>
+<taskbegin task="NSE" time="1629308990"/>
+<taskend task="NSE" time="1629308990"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1629308990"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1629308990"/>
+<taskbegin task="SYN Stealth Scan" time="1629308990"/>
+<taskend task="SYN Stealth Scan" time="1629308990" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1629308991"/>
+<taskend task="Service scan" time="1629308999" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1629308999"/>
+<taskend task="NSE" time="1629309009"/>
+<taskbegin task="NSE" time="1629309009"/>
+<taskend task="NSE" time="1629309009"/>
+<host starttime="1629308990" endtime="1629309009"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.129.188.80" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="79"><state state="open" reason="syn-ack" reason_ttl="59"/><service name="finger" product="Sun Solaris fingerd" ostype="Solaris" method="probed" conf="10"><cpe>cpe:/o:sun:sunos</cpe></service><script id="finger" output="No one logged on&#xd;&#xa;"/></port>
+</ports>
+<times srtt="47954" rttvar="47954" to="239770"/>
+</host>
+<taskbegin task="NSE" time="1629309009"/>
+<taskend task="NSE" time="1629309009"/>
+<taskbegin task="NSE" time="1629309009"/>
+<taskend task="NSE" time="1629309009"/>
+<runstats><finished time="1629309009" timestr="Wed Aug 18 19:50:09 2021" summary="Nmap done at Wed Aug 18 19:50:09 2021; 1 IP address (1 host up) scanned in 19.87 seconds" elapsed="19.87" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

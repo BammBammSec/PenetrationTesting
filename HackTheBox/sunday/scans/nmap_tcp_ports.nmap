@@ -1,0 +1,13 @@
+# Nmap 7.91 scan initiated Tue Aug 17 21:04:58 2021 as: nmap -vv -p- -oA nmap_tcp_ports --max-retries 0 10.129.188.43
+Warning: 10.129.188.43 giving up on port because retransmission cap hit (0).
+Nmap scan report for 10.129.188.43
+Host is up, received echo-reply ttl 254 (0.12s latency).
+Scanned at 2021-08-17 21:04:58 CEST for 229s
+Not shown: 59876 filtered ports, 5657 closed ports
+Reason: 59876 no-responses and 5657 resets
+PORT    STATE SERVICE REASON
+79/tcp  open  finger  syn-ack ttl 59
+111/tcp open  rpcbind syn-ack ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Aug 17 21:08:47 2021 -- 1 IP address (1 host up) scanned in 230.01 seconds

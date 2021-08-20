@@ -1,0 +1,5 @@
+# Nmap 7.91 scan initiated Wed Aug 18 19:49:50 2021 as: nmap -vv --reason -Pn -sV -p 79 --script=banner,finger -oA tcp_79_nmap 10.129.188.80
+# Ports scanned: TCP(1;79) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.129.188.80 ()	Status: Up
+Host: 10.129.188.80 ()	Ports: 79/open/tcp//finger//Sun Solaris fingerd/
+# Nmap done at Wed Aug 18 19:50:09 2021 -- 1 IP address (1 host up) scanned in 19.87 seconds

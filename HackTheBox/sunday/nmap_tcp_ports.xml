@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.91 scan initiated Wed Aug 18 16:56:58 2021 as: nmap -sT -p- -T4 -A -v -oA nmap_tcp_ports 10.129.188.80 -->
+<nmaprun scanner="nmap" args="nmap -sT -p- -T4 -A -v -oA nmap_tcp_ports 10.129.188.80" start="1629298618" startstr="Wed Aug 18 16:56:58 2021" version="7.91" xmloutputversion="1.05">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1629298619"/>
+<taskend task="NSE" time="1629298619"/>
+<taskbegin task="NSE" time="1629298619"/>
+<taskend task="NSE" time="1629298619"/>
+<taskbegin task="NSE" time="1629298619"/>
+<taskend task="NSE" time="1629298619"/>
+<taskbegin task="Ping Scan" time="1629298619"/>
+<hosthint><status state="up" reason="unknown-response" reason_ttl="0"/>
+<address addr="10.129.188.80" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<taskend task="Ping Scan" time="1629298619" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1629298619"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1629298619"/>
+<taskbegin task="Connect Scan" time="1629298619"/>
+<taskprogress task="Connect Scan" time="1629298650" percent="1.32" remaining="2311" etc="1629300960"/>
+<taskprogress task="Connect Scan" time="1629298680" percent="2.89" remaining="2053" etc="1629300732"/>
+<taskprogress task="Connect Scan" time="1629298710" percent="4.50" remaining="1931" etc="1629300640"/>
+<taskprogress task="Connect Scan" time="1629298779" percent="8.05" remaining="1829" etc="1629300608"/>
+<taskprogress task="Connect Scan" time="1629298827" percent="10.76" remaining="1725" etc="1629300552"/>
+<taskprogress task="Connect Scan" time="1629298899" percent="14.70" remaining="1626" etc="1629300524"/>
+<taskprogress task="Connect Scan" time="1629299019" percent="20.75" remaining="1528" etc="1629300547"/>
+<taskprogress task="Connect Scan" time="1629299127" percent="26.23" remaining="1429" etc="1629300556"/>
+<taskprogress task="Connect Scan" time="1629299226" percent="31.33" remaining="1331" etc="1629300556"/>
+<taskprogress task="Connect Scan" time="1629299337" percent="36.81" remaining="1233" etc="1629300570"/>
+<taskprogress task="Connect Scan" time="1629299430" percent="41.71" remaining="1134" etc="1629300564"/>
+<taskprogress task="Connect Scan" time="1629299535" percent="46.97" remaining="1035" etc="1629300569"/>
+<taskprogress task="Connect Scan" time="1629299646" percent="52.36" remaining="935" etc="1629300580"/>
+<taskprogress task="Connect Scan" time="1629299745" percent="57.43" remaining="835" etc="1629300580"/>
+<taskprogress task="Connect Scan" time="1629299850" percent="62.55" remaining="737" etc="1629300587"/>
+<taskprogress task="Connect Scan" time="1629299943" percent="67.50" remaining="638" etc="1629300580"/>
+<taskprogress task="Connect Scan" time="1629300042" percent="72.63" remaining="537" etc="1629300578"/>
+<taskprogress task="Connect Scan" time="1629300138" percent="77.72" remaining="436" etc="1629300573"/>
+<taskprogress task="Connect Scan" time="1629300237" percent="82.84" remaining="336" etc="1629300572"/>
+<taskprogress task="Connect Scan" time="1629300351" percent="88.03" remaining="236" etc="1629300587"/>
+<taskprogress task="Connect Scan" time="1629300447" percent="93.02" remaining="138" etc="1629300584"/>
+<taskprogress task="Connect Scan" time="1629300549" percent="98.15" remaining="37" etc="1629300585"/>
+<taskend task="Connect Scan" time="1629300890" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1629300890"/>
+<taskend task="Service scan" time="1629300920" extrainfo="5 services on 1 host"/>
+<taskbegin task="Traceroute" time="1629300935"/>
+<taskend task="Traceroute" time="1629300935"/>
+<taskbegin task="Parallel DNS resolution of 2 hosts." time="1629300935"/>
+<taskend task="Parallel DNS resolution of 2 hosts." time="1629300935"/>
+<taskbegin task="NSE" time="1629300935"/>
+<taskend task="NSE" time="1629300952"/>
+<taskbegin task="NSE" time="1629300952"/>
+<taskend task="NSE" time="1629300953"/>
+<taskbegin task="NSE" time="1629300953"/>
+<taskend task="NSE" time="1629300953"/>
+<host starttime="1629298619" endtime="1629300953"><status state="up" reason="echo-reply" reason_ttl="254"/>
+<address addr="10.129.188.80" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="63187">
+<extrareasons reason="conn-refused" count="63187"/>
+</extraports>
+<extraports state="filtered" count="2343">
+<extrareasons reason="no-responses" count="2343"/>
+</extraports>
+<port protocol="tcp" portid="79"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="finger" product="Sun Solaris fingerd" ostype="Solaris" method="probed" conf="10"><cpe>cpe:/o:sun:sunos</cpe></service><script id="finger" output="No one logged on&#xd;&#xa;"/></port>
+<port protocol="tcp" portid="111"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rpcbind" version="2-4" extrainfo="RPC #100000" method="probed" conf="10"/></port>
+<port protocol="tcp" portid="22022"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="SunSSH" version="1.3" extrainfo="protocol 2.0" method="probed" conf="10"><cpe>cpe:/a:sun:sunssh:1.3</cpe></service><script id="ssh-hostkey" output="&#xa;  1024 d2:e5:cb:bd:33:c7:01:31:0b:3c:63:d9:82:d9:f1:4e (DSA)&#xa;  1024 e4:2c:80:62:cf:15:17:79:ff:72:9d:df:8b:a6:c9:ac (RSA)"><table>
+<elem key="bits">1024</elem>
+<elem key="key">AAAAB3NzaC1kc3MAAACBAKQhj2N5gfwsseuHbx/yCXwOkphQCTzDyXaBw5SHg/vRBW9aYPsWUUV0XGZPlVtbhxFylTZGNZTWJyndzQL3aRcQNouwVH8NnQsT63s4uLKsAP3jx4afAwB7049PvisAxtDVMbqg94vxaJkh88VY/EMpASYNrLFtr1mZngrbAzOvAAAAFQCiLK6Oh21fvEjgZ0Yl0IRtONW/wwAAAIAxz1u+bPH+VE7upID2HEvYksXOItmohsDFt0oHmGMHf9TKwZvqQLZRix0eXYu8zLnTIdg7rVYSjGyRhuWeIkl1+0aIJL4/dzB+JthInTGFIngc83MtonLP4Sj3YL20wL9etVh8/M0ZOedntWrQcUW+8cUWZRlgW8q620HZKE8VqAAAAIB0s8wn1ufviVEKXct60uz2ZoduUgg07dfPfzvhpbw232KYUJ6lchTj2p2AV8cD0fk2lok2Qc6Kn/OKSjO9C0PlvG8WWkVVvlISUY4BEhtqtL3aof7PYp5nCrLK+2v+grCLxOvyYpT1OfDMQbahOWGZ9OCwQtQXKP1wYEQMqMsSRg==</elem>
+<elem key="fingerprint">d2e5cbbd33c701310b3c63d982d9f14e</elem>
+<elem key="type">ssh-dss</elem>
+</table>
+<table>
+<elem key="bits">1024</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAABIwAAAIEAxAwq7HNZXHr7XEeYeKsbnaruPQyUK5IkSE/FxHesBaKQ37AsLjw8iacqUvcs8IuhPfiTtwuwU42zUHu1e1rmLpRlMyLQnjgJH1++fP5E0Qnxj4DrFr7aeRv1FqPkrnK/xCX46AdgUhs4+4YA04yfi8pOlaSEVucYaqWNhuqJkt8=</elem>
+<elem key="fingerprint">e42c8062cf151779ff729ddf8ba6c9ac</elem>
+<elem key="type">ssh-rsa</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="62378"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="62550"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="rpcbind" method="probed" conf="10"/></port>
+</ports>
+<os><portused state="open" proto="tcp" portid="79"/>
+<portused state="closed" proto="tcp" portid="1"/>
+<portused state="closed" proto="udp" portid="32047"/>
+<osmatch name="Sun Solaris 10" accuracy="94" line="100360">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="10" accuracy="94"><cpe>cpe:/o:sun:sunos:5.10</cpe></osclass>
+</osmatch>
+<osmatch name="Sun OpenSolaris 2008.11" accuracy="94" line="100032">
+<osclass type="general purpose" vendor="Sun" osfamily="OpenSolaris" accuracy="94"><cpe>cpe:/o:sun:opensolaris</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 9 or 10, or OpenSolaris 2009.06 snv_111b" accuracy="94" line="101293">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="9" accuracy="94"><cpe>cpe:/o:sun:sunos:5.9</cpe></osclass>
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="10" accuracy="94"><cpe>cpe:/o:sun:sunos:5.10</cpe></osclass>
+<osclass type="general purpose" vendor="Sun" osfamily="OpenSolaris" accuracy="94"><cpe>cpe:/o:sun:opensolaris</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 9 or 10 (SPARC)" accuracy="92" line="101264">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="9" accuracy="92"><cpe>cpe:/o:sun:sunos:5.9</cpe></osclass>
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="10" accuracy="92"><cpe>cpe:/o:sun:sunos:5.10</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Storage 7210 NAS device" accuracy="92" line="99942">
+<osclass type="storage-misc" vendor="Sun" osfamily="embedded" accuracy="92"><cpe>cpe:/h:sun:storage_7210</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 9 or 10" accuracy="92" line="101216">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="9" accuracy="92"><cpe>cpe:/o:sun:sunos:5.9</cpe></osclass>
+</osmatch>
+<osmatch name="Oracle Solaris 11" accuracy="91" line="92268">
+<osclass type="general purpose" vendor="Oracle" osfamily="Solaris" osgen="11" accuracy="91"><cpe>cpe:/o:oracle:solaris:11</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 8 (SPARC)" accuracy="91" line="100923">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="8" accuracy="91"><cpe>cpe:/o:sun:sunos:5.8</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 8" accuracy="91" line="100830">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="8" accuracy="91"><cpe>cpe:/o:sun:sunos:5.8</cpe></osclass>
+</osmatch>
+<osmatch name="Sun Solaris 9" accuracy="90" line="101143">
+<osclass type="general purpose" vendor="Sun" osfamily="Solaris" osgen="9" accuracy="90"><cpe>cpe:/o:sun:sunos:5.9</cpe></osclass>
+</osmatch>
+<osfingerprint fingerprint="OS:SCAN(V=7.91%E=4%D=8/18%OT=79%CT=1%CU=32047%PV=Y%DS=2%DC=T%G=Y%TM=611D28D&#xa;OS:9%P=x86_64-pc-linux-gnu)SEQ(SP=9C%GCD=1%ISR=A5%TI=I%CI=I%II=I%SS=S%TS=7)&#xa;OS:SEQ(CI=I)SEQ(SP=8F%GCD=1%ISR=A4%TI=I%CI=I%TS=7)OPS(O1=NNT11M54BNW0NNS%O2&#xa;OS:=NNT11M54BNW0NNS%O3=NNT11M54BNW0%O4=NNT11M54BNW0NNS%O5=NNT11M54BNW0NNS%O&#xa;OS:6=NNT11M54BNNS)WIN(W1=C21B%W2=C21B%W3=C1CC%W4=C068%W5=C068%W6=C0B7)ECN(R&#xa;OS:=Y%DF=Y%T=3C%W=C3D7%O=M54BNW0NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=3C%S=O%A=S+%F=AS%&#xa;OS:RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y&#xa;OS:%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R&#xa;OS:%O=%RD=0%Q=)T7(R=N)U1(R=Y%DF=Y%T=FF%IPL=70%UN=0%RIPL=G%RID=G%RIPCK=G%RUC&#xa;OS:K=G%RUD=G)IE(R=Y%DFI=Y%T=FF%CD=S)&#xa;"/>
+</os>
+<uptime seconds="34611" lastboot="Wed Aug 18 07:59:02 2021"/>
+<distance value="2"/>
+<tcpsequence index="154" difficulty="Good luck!" values="F8A20EA4,F8A483A3,F8A7DE2B,F8A8F78E,F8AC5AE6,F8AF21B4"/>
+<ipidsequence class="Incremental" values="4A7E,4A7F,4A80,4A81,4A82,4A83"/>
+<tcptssequence class="100HZ" values="34C876,34C880,34C88B,34C896,34C8A1,34C8AC"/>
+<trace proto="icmp">
+<hop ttl="1" ipaddr="10.10.16.1" rtt="69.15"/>
+<hop ttl="2" ipaddr="10.129.188.80" rtt="35.61"/>
+</trace>
+<times srtt="81030" rttvar="37079" to="229346"/>
+</host>
+<taskbegin task="NSE" time="1629300953"/>
+<taskend task="NSE" time="1629300953"/>
+<taskbegin task="NSE" time="1629300953"/>
+<taskend task="NSE" time="1629300953"/>
+<taskbegin task="NSE" time="1629300953"/>
+<taskend task="NSE" time="1629300953"/>
+<runstats><finished time="1629300953" timestr="Wed Aug 18 17:35:53 2021" summary="Nmap done at Wed Aug 18 17:35:53 2021; 1 IP address (1 host up) scanned in 2335.53 seconds" elapsed="2335.53" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
